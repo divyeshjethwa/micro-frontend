@@ -1,0 +1,20 @@
+{
+	"name": "micro-frontend",
+	"private": true,
+	"description": "micro-frontend",
+	"scripts": {
+		"start": "node tailor.js",
+		"start-fragments": "lerna run --parallel start",
+		"watch-fragments": "lerna run --parallel watch"
+	},
+	"devDependencies": {
+		"babel-eslint": "^8.0.2",
+		"eslint": "^4.11.0",
+		"eslint-import-resolver-webpack": "^0.8.3",
+		"eslint-plugin-import": "^2.8.0",
+		"lerna": "^3.16.4",
+		"localStorage": "1.0.4",
+		"node-tailor": "^3.8.0",
+		"webpack": "^3.8.1"
+	}
+}

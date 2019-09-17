@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <base href="#">
+
+    <style>
+        .main-container {
+            display: flex;
+        }
+
+        .box {
+            padding-top: 1.5em;
+            padding-left: 6em;
+        }
+
+        .container {
+            align-self: center;
+            height: 650px;
+            width: 600px;
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body style="background-color: white">
+    <div class="main-container">
+        <div class="box">
+            <div class="container">
+                <app-one></app-one>
+                <fragment src="http://localhost:5051"></fragment>
+            </div>
+        </div>
+        <div class="box">
+            <div class="container">
+                <app-three></app-three>
+                <fragment src="http://localhost:5053"></fragment>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
