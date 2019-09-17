@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'three';
-  apiToken = 'd789c527aaca98d3bc5ade2110a95e8ae65a8a09';
   repos: Array<any>;
   searchQuery = 'angular';
 
