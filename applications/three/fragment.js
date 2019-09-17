@@ -50,7 +50,7 @@ function buildLinkHeader() {
         console.log(currentFile);
         if (currentFile) {
           switch (currentFile.substring(currentFile.lastIndexOf('.'))) {
-            case '.scss':
+            case '.css':
               rel = 'stylesheet';
               break;
 
@@ -68,7 +68,7 @@ function buildLinkHeader() {
         let rel = 'fragment-script';
         let ending = file.substring(file.lastIndexOf('.'));
         switch (ending) {
-          case '.scss':
+          case '.css':
             rel = 'stylesheet';
             break;
         }
